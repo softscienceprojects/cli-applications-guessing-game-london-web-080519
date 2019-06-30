@@ -5,8 +5,8 @@ def run_guessing_game
   compnum = rand(6) + 1
   input = gets.chomp
 
-  if input == "exit" 
-    message = "Goodbye!" 
+  if input == "exit"
+    message = "Goodbye!"
   end
     message = "You guessed the correct number!"
 
