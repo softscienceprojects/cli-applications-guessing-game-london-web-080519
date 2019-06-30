@@ -3,9 +3,9 @@
 def run_guessing_game
   message = ""
   #compnum = rand(6) + 1
-  input = gets.chomp
+  input = gets
 
-  if gets == "exit"
+  if input == "exit"
     message = "Goodbye!"
   # elsif input != rand(6)+1 #&& input != "exit"
   #   message = "Sorry! The computer guessed #{rand(6)+1}"
