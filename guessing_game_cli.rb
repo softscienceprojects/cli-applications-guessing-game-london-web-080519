@@ -7,7 +7,7 @@ def run_guessing_game
 
   if input == "exit"
     message = "Goodbye!"
-  elsif input != rand(6)+1 #&& input != "exit"
+  elsif input != rand(6)+1 && input != "exit"
     message = "Sorry! The computer guessed #{rand(6)+1}"
   else
     message = "You guessed the correct number!"
