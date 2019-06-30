@@ -10,7 +10,7 @@ def run_guessing_game
   elsif input == rand(6)+1 #&& input != "exit"
     message = "You guessed the correct number!"
   else
-    message = "Sorry! The computer guessed #{compnum}"
+    message = "Sorry! The computer guessed #{compnum}."
   end
 
  puts message
