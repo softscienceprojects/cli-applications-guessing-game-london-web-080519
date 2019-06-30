@@ -5,7 +5,7 @@ def run_guessing_game
   compnum = rand(6) + 1
   input = gets
 
-  puts "Goodbye!" if input == exit
+  puts "Goodbye!" if input == "exit"
  #
  #  if input == "exit"
  #    message = "Goodbye!"
