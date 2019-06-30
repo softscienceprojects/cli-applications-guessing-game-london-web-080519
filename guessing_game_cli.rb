@@ -13,6 +13,6 @@ def run_guessing_game
     message = "Sorry! The computer guessed #{compnum}"
   end
 
-  puts compnum
+puts compnum
  message
 end
