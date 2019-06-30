@@ -12,6 +12,6 @@ def run_guessing_game
   else
     message = "You guessed the correct number!"
   end
-  
+
 p message
 end
