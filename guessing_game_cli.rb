@@ -2,7 +2,7 @@
 
 def run_guessing_game
   message = ""
-  compnum = rand(6) + 1
+  compnum = rand(6) + 1.to_s
   input = gets.chomp
 
   if input == "exit"
