@@ -8,11 +8,11 @@ def run_guessing_game
   if input == "exit"
     message = "Goodbye!"
   end
-    message = "You guessed the correct number!"
-
-  while input != compnum && input != "exit"
-    message = "Sorry! The computer guessed #{compnum}"
-  end
+  #   message = "You guessed the correct number!"
+  #
+  # while input != compnum && input != "exit"
+  #   message = "Sorry! The computer guessed #{compnum}"
+  # end
 
 p message
 end
