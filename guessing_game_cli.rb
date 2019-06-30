@@ -2,12 +2,12 @@
 
 def run_guessing_game
   message = ""
-  compnum = rand(6) + 1
+  #compnum = rand(6) + 1
   input = gets.chomp
 
   if input == "exit"
     message = "Goodbye!"
-  elsif input != compnum && input != "exit"
+  elsif input != rand(6)+1 #&& input != "exit"
     message = "Sorry! The computer guessed #{compnum}"
   else
     message = "You guessed the correct number!"
